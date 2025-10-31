@@ -31,3 +31,22 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Environment & Secrets ###
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+### Logs ###
+*.log
+logs/
+spring.log
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Docker ###
+*.pid
